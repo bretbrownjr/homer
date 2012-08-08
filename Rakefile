@@ -1,8 +1,9 @@
 FILES =
 {
-  :vimrc  => '.vimrc',
-  :vim    => '.vim',
-  :bashrc => '.bashrc'
+  :vimrc     => '.vimrc',
+  :vim       => '.vim',
+  :bashrc    => '.bashrc',
+  :gitconfig => '.gitconfig'
 }
 
 def source(file)
