@@ -18,10 +18,10 @@ FILES.each_value do |file|
   src  = source(file)
   file trgt => source(file) do
     if File.exists?(trgt)
-      sh "cp -r #{src} #{trgt}"
-    else
-      sh "cp -r #{src} #{trgt}"
+      sh "rm #{trgt}"
+      sh "ln -s #{trgt} #{src}"
     end
+    sh "ln -s #{src} #{trgt}"
   end
 end
 
