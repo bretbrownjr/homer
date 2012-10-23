@@ -5,7 +5,8 @@
 " See: www.vim.org/scripts/script.php?script_id=1488
 
 " Sets the color scheme
-colorscheme vibrantink
+colorscheme blacksea
+"colorscheme vibrantink
 "colorscheme wood
 
 " Sets <TAB> to behave like escape
